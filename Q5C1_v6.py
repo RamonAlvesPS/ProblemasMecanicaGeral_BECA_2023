@@ -45,7 +45,7 @@ for i in range(n):
 
 
 # Subproblema 3: Plotar o gráfico dos esforços cortantes
-plt.figure()
+plt.figure("slaaajdkanjkd")
 plt.plot(nos, esforco_cortante)
 plt.xlabel('Posição (m)')
 plt.ylabel('Esforço Cortante (N)')
