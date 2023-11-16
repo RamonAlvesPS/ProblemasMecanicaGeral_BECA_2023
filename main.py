@@ -1,3 +1,25 @@
+""" DESCRIÇÃO
+	Instituição:
+        INSTITUTO FEDERAL DA PARAÍBA - Campus Cajazeiras
+    Autor: 
+        Ramon Alves
+    Data de inicio: 
+        11/11/2023
+    Professor: 
+        Anrafel 
+    Disciplina:
+		Mecânica Geral
+    Objetivo: 
+        Implementar um script para solucionar as vigas da questão 5C.1 do livro "Mecânica para Engenharia" do Beer.
+    Arquivo:
+		main.py
+			- Interação com o usuário afim de receber todos os dados possíveis sobre a viga
+            - Faz tratamento de dados
+            - Chama o arquivo "Beam.py"
+        Beam.py
+            "Biblioteca" que irá ajudar nos cálculos junto com o matplotlib para plotar os Gráficos/Diagramas.
+"""
+
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Essas duas linhas são comentários especiais usados para configurar o ambiente de execução do código.
