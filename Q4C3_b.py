@@ -23,7 +23,6 @@ import matplotlib.pyplot as plt
 plt.rcParams['figure.facecolor'] = 'white'
 
 import numpy as np
-
 import math
 
 from colorama import Fore, Style, init
@@ -57,9 +56,8 @@ W = 200
 # v = np.arccos((-W/(2*a*R*(k**2)))+(R/(2*a))-(a/(2*R))-(1/(2*R))+(1/(2*a)))
 
 # o = 16.5845 # Theta
-# o = (16.5845*math.pi)/180 # Theta
+# o = (16.5845*math.pi)/180 # Theta # 0,289454
 
 # W = k*(math.sqrt((R**2)+(a**2)-(2*a*R*(math.cos(o))))-a+R)
 
-
-print(f'O valor maximo de Theta para W={W} é: {o}')
+print(f'O valor máximo de Theta para W={W} é: {o}')
