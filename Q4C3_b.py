@@ -54,6 +54,12 @@ print(peso)
 W = 200
 # theta = math.degrees(math.acos((-W/(2*a*R*(k**2)))+(R/(2*a))-(a/(2*R))-(1/(2*R))+(1/(2*a))))
 # v = math.degrees(math.acos(W))
-v = np.arccos((-W/(2*a*R*(k**2)))+(R/(2*a))-(a/(2*R))-(1/(2*R))+(1/(2*a)))
+# v = np.arccos((-W/(2*a*R*(k**2)))+(R/(2*a))-(a/(2*R))-(1/(2*R))+(1/(2*a)))
 
-print(f'O valor maximo de Theta para W={W} é: {v}')
+# o = 16.5845 # Theta
+# o = (16.5845*math.pi)/180 # Theta
+
+# W = k*(math.sqrt((R**2)+(a**2)-(2*a*R*(math.cos(o))))-a+R)
+
+
+print(f'O valor maximo de Theta para W={W} é: {o}')
