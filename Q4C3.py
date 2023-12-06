@@ -23,7 +23,6 @@ import matplotlib.pyplot as plt
 plt.rcParams['figure.facecolor'] = 'white'
 
 import numpy as np
-
 import math
 
 from colorama import Fore, Style, init
@@ -39,8 +38,8 @@ o = 0 # Theta, angulo do ponto B até o Apoio A, em º
 # o = 16.5845 # Theta
 # o = (16.5845*math.pi)/180 # Theta
 theta = []
-for i in r
-for i in range(0, 45, 1):
+
+for i in range(0, 90, 10):
     o = (i*math.pi)/180 # Theta
     theta.append(i)
 
