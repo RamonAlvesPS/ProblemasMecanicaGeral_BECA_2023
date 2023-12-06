@@ -39,8 +39,8 @@ o = 0 # Theta, angulo do ponto B até o Apoio A, em º
 # o = 16.5845 # Theta
 # o = (16.5845*math.pi)/180 # Theta
 theta = []
-
-for i in range(0, 100, 10):
+for i in r
+for i in range(0, 45, 1):
     o = (i*math.pi)/180 # Theta
     theta.append(i)
 
